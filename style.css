@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(foto.jpg);
+   background-attachment: fixed;
+     background-repeat: no-repeat;
+    background-position: top right;
+   background-size: cover;
+
+}
+h1{
+    color: white;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-top:-15px;
+    text-shadow: 3px 3px 4px black;
+}
+p{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0px;
+}
+
+nav{
+    background-color: rgba(36, 36, 36, 0.274);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    padding: 5vh;
+    border: solid rgba(255, 255, 255, 0.39) 2px;
+    border-radius: 20px;
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.479);
+    border: solid rgba(255, 255, 255, 0.486) 1px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+button{
+    margin-top: 15px;
+    background-color: rgba(1, 1, 155, 0.315);
+    padding: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    border-radius: 15px;
+ border: solid  rgba(255, 255, 255, 0.425) 1px;
+  
+  
+}
+
+button:hover{
+    font-size: 19px;
+    background-color: rgba(6, 6, 226, 0.397);
+    
+}
