@@ -22,7 +22,9 @@ p{
     font-size: 1.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 0px;
+    
 }
+ 
 
 nav{
     background-color: rgba(36, 36, 36, 0.274);
@@ -34,6 +36,11 @@ nav{
     border: solid rgba(255, 255, 255, 0.39) 2px;
     border-radius: 20px;
 }
+nav:hover{
+   
+    box-shadow: 0px 0px 20px blue;
+   
+}
 
 input{
     background-color: rgba(0, 0, 0, 0.479);
@@ -41,23 +48,37 @@ input{
     padding: 10px;
     border-radius: 10px;
     color: white;
+    
+}
+
+input:hover{
+    border: blue;
+    box-shadow:0px 0px 10px blue;
+}
+
+div#senha{
+    margin-bottom: 25px;
 }
 
 button{
-    margin-top: 15px;
-    background-color: rgba(1, 1, 155, 0.315);
+  
+    background-color:rgba(3, 7, 44, 0.507);
     padding: 10px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     border-radius: 15px;
- border: solid  rgba(255, 255, 255, 0.425) 1px;
-  
+    border: solid  rgba(255, 255, 255, 0.425) 1px;
+    display: block;
+    margin: auto;
   
 }
 
+
 button:hover{
-    font-size: 19px;
-    background-color: rgba(6, 6, 226, 0.397);
+    border: rgb(0, 0, 129);
+    color: rgb(0, 0, 255);
+    box-shadow: 0px 0px 15px rgb(0, 0, 255);
+    background-color: rgba(1, 0, 78, 0.568);
     
 }
